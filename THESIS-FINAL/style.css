@@ -1,0 +1,32 @@
+.hidden-form {
+    display: none;
+}
+
+#form-container,
+.form-container,
+.habit-section,
+.stats-tab,
+.attendance-tab {
+    border: 1px solid slategray;
+    padding: 10px;
+}
+
+.habit-info>span {
+    display: inline-block;
+    padding: 5px;
+}
+
+.attendance-tab {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.attendance-box {
+    border: 1px solid rgb(102, 114, 138);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.attendance-box.present {
+    background-color: aquamarine;
+}
